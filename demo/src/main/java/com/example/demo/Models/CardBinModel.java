@@ -12,7 +12,7 @@ import lombok.Setter;
 @Table(name="tbl_Card_Bind")  
 @Getter
 @Setter
-public class CardBin {
+public class CardBinModel {
 
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Id
